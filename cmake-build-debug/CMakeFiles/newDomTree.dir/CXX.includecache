@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tose/Desktop/Workspace/CLion Projects/newDomTree/domtreenode.h
+iostream
+-
+stack
+-
+vector
+-
+string
+-
+fstream
+-
+
+/Users/tose/Desktop/Workspace/CLion Projects/newDomTree/main.cpp
+domtreenode.h
+/Users/tose/Desktop/Workspace/CLion Projects/newDomTree/domtreenode.h
+
